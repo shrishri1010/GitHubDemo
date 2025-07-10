@@ -19,6 +19,7 @@ public class SeleniumTest {
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		Thread.sleep(Duration.ofSeconds(10));
+		System.out.println("test test");
 		driver.close();
 	}
 }
